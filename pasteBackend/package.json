@@ -1,0 +1,27 @@
+{
+  "name": "authbackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "moongose": "^1.0.0",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7",
+    "validator": "^13.12.0"
+  }
+}
